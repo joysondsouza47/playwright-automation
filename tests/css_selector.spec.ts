@@ -68,4 +68,16 @@ test("css locator", async ({page})=>
 // preceding-sibling	Siblings appearing before the element	//input[@id="username"]/preceding-sibling::label
 // self	                Current element itself	                //input[@id="username"]/self::input
 
+
+//input[@attribute='value]/parent::
+
+
+
+
+
+
+
+
+
+
 })
