@@ -18,7 +18,7 @@ test("locator  1", async ({page})=>
 //getByText("text value",{exact:true}) 
 //getByText(/text value/i)^ $
 //getByAltText('alt value)
-//getByPlaceholder('placeholder value')
+//getByPlaceholder('placeholder value')+
 //getByLabel('label value')
 //getByTitle('title value')
 //getByTestId('id value')

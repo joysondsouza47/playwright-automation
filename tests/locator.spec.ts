@@ -14,7 +14,7 @@ test("locators", async({page})=>
     await page.getByRole('button',{name:"Add Element"}).click();  //button
     await page.getByRole('button',{name:"Delete"}).click();  //button
 
-await page.goBack();
+    await page.goBack();
 
     await page.getByRole('link',{name:"Checkboxes"}).click(); 
     await page.getByRole('checkbox').nth(0).check();
